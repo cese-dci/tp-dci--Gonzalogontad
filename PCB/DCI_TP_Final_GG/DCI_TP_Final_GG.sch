@@ -160,4 +160,72 @@ F15 "STEP-B" O R 4800 4000 50
 F16 "DIR-B" O R 4800 4100 50 
 F17 "PFD-B" O R 4800 3900 50 
 $EndSheet
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5D99080F
+P 2950 5450
+F 0 "H101" H 3050 5496 50  0000 L CNN
+F 1 "MountingHole" H 3050 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2950 5450 50  0001 C CNN
+F 3 "" H 2950 5450 50  0001 C CNN
+	1    2950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5D990B77
+P 3700 5450
+F 0 "H103" H 3800 5496 50  0000 L CNN
+F 1 "MountingHole" H 3800 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 3700 5450 50  0001 C CNN
+F 3 "" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5D990F21
+P 2950 5750
+F 0 "H102" H 3050 5796 50  0000 L CNN
+F 1 "MountingHole" H 3050 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 2950 5750 50  0001 C CNN
+F 3 "" H 2950 5750 50  0001 C CNN
+	1    2950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5D990FED
+P 3700 5750
+F 0 "H104" H 3800 5796 50  0000 L CNN
+F 1 "MountingHole" H 3800 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 3700 5750 50  0001 C CNN
+F 3 "" H 3700 5750 50  0001 C CNN
+	1    3700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID101
+U 1 1 5D991143
+P 2950 6200
+F 0 "FID101" H 3035 6246 50  0000 L CNN
+F 1 "Fiducial" H 3035 6155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2950 6200 50  0001 C CNN
+F 3 "~" H 2950 6200 50  0001 C CNN
+	1    2950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID102
+U 1 1 5D991272
+P 3700 6200
+F 0 "FID102" H 3785 6246 50  0000 L CNN
+F 1 "Fiducial" H 3785 6155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3700 6200 50  0001 C CNN
+F 3 "~" H 3700 6200 50  0001 C CNN
+	1    3700 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 1350 0    79   ~ 0
+TP201 y TP301 = Ajuste de maxima corriente del motor\nPara Vref =5V -> Iout = 833mA\nPara Vref =2V -> Iout = 333mA\nPara Vref =1V -> Iout = 166mA
 $EndSCHEMATC
