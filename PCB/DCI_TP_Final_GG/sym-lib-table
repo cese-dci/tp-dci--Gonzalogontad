@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DCI_GG_CESE_FIUBA)(type Legacy)(uri ${KIPRJMOD}/DCI_GG_CESE_FIUBA.lib)(options "")(descr ""))
+)
