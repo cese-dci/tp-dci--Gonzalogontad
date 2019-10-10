@@ -93,7 +93,7 @@ U 1 1 5D96F0CD
 P 8600 3600
 F 0 "J201" H 8680 3592 50  0000 L CNN
 F 1 "DRIVER A OUT" H 8680 3501 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" H 8600 3600 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 8600 3600 50  0001 C CNN
 F 3 "~" H 8600 3600 50  0001 C CNN
 	1    8600 3600
 	1    0    0    -1  

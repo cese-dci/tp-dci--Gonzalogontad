@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name w_conn_mkds)(type Legacy)(uri "${KIPRJMOD}/MKDS series connectors/mod_conn_mkds/w_conn_mkds.mod")(options "")(descr ""))
+)

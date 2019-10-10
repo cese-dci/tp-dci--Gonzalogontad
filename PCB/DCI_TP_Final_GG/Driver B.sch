@@ -103,7 +103,7 @@ AR Path="/5D9739A6/5DA0D997" Ref="J?"  Part="1"
 AR Path="/5D9739FA/5DA0D997" Ref="J301"  Part="1" 
 F 0 "J301" H 9230 3442 50  0000 L CNN
 F 1 "DRIVER B OUT" H 9230 3351 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" H 9150 3450 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 9150 3450 50  0001 C CNN
 F 3 "" H 9150 3450 50  0001 C CNN
 	1    9150 3450
 	1    0    0    -1  
