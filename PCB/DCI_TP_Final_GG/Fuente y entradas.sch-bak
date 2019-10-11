@@ -331,9 +331,9 @@ Wire Wire Line
 Connection ~ 8350 2100
 Wire Wire Line
 	8350 2100 8050 2100
-Text HLabel 3400 3700 2    50   Output ~ 0
-MS1-A
 Text HLabel 3400 3800 2    50   Output ~ 0
+MS1-A
+Text HLabel 3400 3700 2    50   Output ~ 0
 MS2-A
 Text HLabel 3400 4100 2    50   Output ~ 0
 ENA-A
@@ -341,15 +341,15 @@ Text HLabel 3400 4300 2    50   Output ~ 0
 SLEEP-A
 Text HLabel 3400 4200 2    50   Output ~ 0
 RST-A
-Text HLabel 4850 3750 2    50   Output ~ 0
-STEP-A
 Text HLabel 4850 4000 2    50   Output ~ 0
+STEP-A
+Text HLabel 4850 3750 2    50   Output ~ 0
 DIR-A
 Text HLabel 3400 4400 2    50   Output ~ 0
 PFD-A
-Text HLabel 3400 5500 2    50   Output ~ 0
-MS1-B
 Text HLabel 3400 5600 2    50   Output ~ 0
+MS1-B
+Text HLabel 3400 5500 2    50   Output ~ 0
 MS2-B
 Text HLabel 3400 5900 2    50   Output ~ 0
 ENA-B
@@ -357,9 +357,9 @@ Text HLabel 3400 6100 2    50   Output ~ 0
 SLEEP-B
 Text HLabel 3400 6000 2    50   Output ~ 0
 RST-B
-Text HLabel 4900 5550 2    50   Output ~ 0
-STEP-B
 Text HLabel 4900 5800 2    50   Output ~ 0
+STEP-B
+Text HLabel 4900 5550 2    50   Output ~ 0
 DIR-B
 Text HLabel 3400 6200 2    50   Output ~ 0
 PFD-B
@@ -752,13 +752,13 @@ Wire Wire Line
 	6450 3150 6450 3250
 Text Notes 2250 3650 0    79   ~ 0
 Vcc Out
-Text Notes 2250 3750 0    79   ~ 0
-Step - A
-Text Notes 2250 3850 0    79   ~ 0
-Dir - A\n
-Text Notes 2250 3950 0    79   ~ 0
-MS1 - A
 Text Notes 2250 4050 0    79   ~ 0
+Step - A
+Text Notes 2250 3950 0    79   ~ 0
+Dir - A\n
+Text Notes 2250 3850 0    79   ~ 0
+MS1 - A
+Text Notes 2250 3750 0    79   ~ 0
 MS2 - A\n
 Text Notes 2250 4150 0    79   ~ 0
 ENA - A\n
@@ -772,13 +772,13 @@ Text Notes 2250 4550 0    79   ~ 0
 GND
 Text Notes 2250 5450 0    79   ~ 0
 Vcc Out
-Text Notes 2250 5550 0    79   ~ 0
-Step - B
-Text Notes 2250 5650 0    79   ~ 0
-Dir - B
-Text Notes 2250 5750 0    79   ~ 0
-MS1 - B
 Text Notes 2250 5850 0    79   ~ 0
+Step - B
+Text Notes 2250 5750 0    79   ~ 0
+Dir - B
+Text Notes 2250 5650 0    79   ~ 0
+MS1 - B
+Text Notes 2250 5550 0    79   ~ 0
 MS2 - B
 Text Notes 2250 5950 0    79   ~ 0
 ENA - B

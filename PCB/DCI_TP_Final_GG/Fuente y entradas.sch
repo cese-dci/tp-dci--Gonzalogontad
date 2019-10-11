@@ -31,7 +31,7 @@ U 1 1 5D97CE69
 P 4450 2200
 F 0 "J403" H 4368 1875 50  0000 C CNN
 F 1 "Vin" H 4368 1966 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 4450 2200 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 4450 2200 50  0001 C CNN
 F 3 "~" H 4450 2200 50  0001 C CNN
 	1    4450 2200
 	-1   0    0    1   
