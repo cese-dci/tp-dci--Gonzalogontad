@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 4
 Title "Replica Dual EasyDriver v4.5"
 Date "2019-10-02"
-Rev ""
+Rev "Matias Brignone"
 Comp "Gonzalo Gontad - CESE-FIUBA"
 Comment1 ""
 Comment2 ""
