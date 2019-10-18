@@ -1,0 +1,39 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,manf#,digikey#,Descripcion,manf
+1,Unpolarized capacitor,C,C403,100nF x 35v,C_0805_2012Metric,1,https://ar.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf,GMK212BJ104KGHT,587-3364-1-ND,CAP CER 0.1UF 35V,Taiyo Yuden
+2,Unpolarized capacitor,C,C404 C405,1uF x 10V,C_0805_2012Metric,2,https://ar.mouser.com/datasheet/2/212/KEM_C1005_Y5V_SMD-1101305.pdf,C0805C105K8RACTU,399-1172-1-ND,CAP CER 1UF 10V,KEMET
+3,Polarized capacitor,CP,C401 C402,47uF x 35V,CP_Radial_D5.0mm_P2.00mm,2,https://ar.mouser.com/datasheet/2/293/e-ufw-1511690.pdf,UFW1V470MDD1TD,493-11044-1-ND,CAP Electrolitico 47UF  35V RADIAL,Nichicon
+4,Unpolarized capacitor,C,C201 C202 C301 C302,680pF x 50v,C_0805_2012Metric,4,,C681F5GACTU,399-8110-1-ND,CAP CER 680PF 50V,KEMET
+5,Light emitting diode,LED,D401,LED,LED_D3.0mm,1,~,QBL7IG60D,1516-1350-ND,LED GREEN 3MM ROUND,QT Brightek (QTB)
+6,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J201 J301,DRIVER A OUT,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",2,~,1729034,277-1238-ND,Terminal Block x 4  5MM PCB,Phoenix Contact
+7,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x10,J401 J402,IN - Driver A ,PinHeader_1x10_P2.54mm_Vertical,2,,0423751863,WM20125-ND,Tira de Pines 1x10 2.54mm,Molex
+8,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J403,Vin,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",1,~,1715022,277-1258-ND,Terminal Block x 2  5MM PCB,Phoenix Contact
+9,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J404,Vout,PinHeader_1x02_P2.54mm_Vertical,1,~,M20-9990246,952-2262-ND,Tira de Pines 1x2 2.54mm,Harwin Inc.
+10,"Jumper, normally closed",Jumper,JP401,Jumper,R_0805_2012Metric,1,,CR0805-J/-000ELF,CR0805-J/-000ELFCT-ND,RES SMD 0 OHM JUMPER,Bourns Inc.
+11,Resistor,R,R209 R210 R309 R310,0.75,R_0805_2012Metric,4,,RCWE0805R750FKEA,RCWE.75DCT-ND,RES .75 OHM 1/4W 1% 0805 SMD,Vishay Dale
+12,Resistor,R,R201 R202 R203 R204 R205 R208 R301 R302 R303 R304 R305 R308 R401 R402 R403 R404,10K,R_0805_2012Metric,16,,RC0805JR-0710KL,311-10KARCT-ND,RES 10K OHM SMD 0805,Yageo
+13,Resistor,R,R405 R406 R407 R408 R412,1K,R_0805_2012Metric,5,~,RC0805FR-071RL,311-1.00CRCT-ND,RES 1k OHM SMD 0805,Yageo
+14,Resistor,R,R207 R307,2.4K,R_0805_2012Metric,2,,RC0805FR-072K4L,311-2.40KCRCT-ND,RES 2.4K OHM SMD 0805,Yageo
+15,Resistor,R,R211 R212 R311 R312,20k,R_0805_2012Metric,4,,RC0805FR-0720KL,311-20.0KCRCT-ND,RES 20K OHM SMD 0805,Yageo
+16,Resistor,R,R411,240,R_0805_2012Metric,1,,RL0805FR-070R24L,311-.24SCT-ND,RES 240 OHM SMD 0805,Yageo
+17,Resistor,R,R410,330,R_0805_2012Metric,1,,RC0805FR-07330RL,311-330CRCT-ND,RES 330 OHM SMD 0805,Yageo
+18,Resistor,R,R409,390,R_0805_2012Metric,1,,RC0805FR-07390RL,311-390CRCT-ND,RES 390 OHM SMD 0805,Yageo
+19,Resistor,R,R206 R306,6.8K,R_0805_2012Metric,2,,RC0805FR-076K8L,311-6.80KCRCT-ND,RES  6.8K OHM SMD 0805,Yageo
+20,Potentiometer,R_POT,RV201 RV301,10k,Potentiometer_Vishay_TS53YJ_Vertical,2,,TS53YJ103MR10,TS53YJ-10KTR-ND,Potenciometro 10k SMD 5050,Vishay
+21,,A3967,U201 U301,A3967,SOIC-24W_7.5x15.4mm_P1.27mm,2,https://github.com/cese-dci/tp-dci--Gonzalogontad/blob/master/info/A3967-Datasheet.pdf,A3967SLBTR-T,620-1140-1-ND,Stepper Driver A3967,Allegro MicroSystems
+22,"1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263",LM317_3PinPackage,U401,LM317,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm317.pdf,LM317MSTT3G,LM317MSTT3GOSCT-ND,Regulador de tension lineal LM317 SMD SOT-223,ON Semiconductor
+
+
+
+
+
+Component Groups:,22
+Component Count:,58
+Fitted Components:,58
+Number of PCBs:,1
+Total components:,58
+Schematic Version:,Matias Brignone
+Schematic Date:,2019-10-02
+PCB Variant:,default
+BoM Date:,jue 17 oct 2019 23:12:00 -03
+Schematic Source:,/home/gonzalo/Escritorio/Especializacion/DCI/Repositorio/tp-dci--Gonzalogontad/PCB/DCI_TP_Final_GG/DCI_TP_Final_GG.sch
+KiCad Version:,Eeschema 5.1.4-e60b266~84~ubuntu18.04.1
