@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Replica Dual EasyDriver v4.5"
-Date "2019-10-02"
-Rev "Matias Brignone"
+Date "2019-10-26"
+Rev "M Brignone"
 Comp "Gonzalo Gontad - CESE-FIUBA"
-Comment1 ""
+Comment1 "Revisores: M. Ribelotta y M. Brignone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -22,7 +22,7 @@ AR Path="/5D9739A6/5DA0D96F" Ref="U?"  Part="1"
 AR Path="/5D9739FA/5DA0D96F" Ref="U301"  Part="1" 
 F 0 "U301" H 6350 -1250 50  0000 C CNN
 F 1 "A3967" H 6350 -1400 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" V 6650 -1450 50  0001 C CNN
+F 2 "DCI_TP_Final_GG:SOIC-24W_7.5x15.4mm_P1.27mm" V 6650 -1450 50  0001 C CNN
 F 3 "https://github.com/cese-dci/tp-dci--Gonzalogontad/blob/master/info/A3967-Datasheet.pdf" H 6350 -1300 50  0001 C CNN
 F 4 "Stepper Driver A3967" H 3800 1000 50  0001 C CNN "Descripcion"
 F 5 "620-1140-1-ND" H 3800 1000 50  0001 C CNN "digikey#"
@@ -570,23 +570,6 @@ F 7 "RC0805JR-0710KL" H 4550 3350 50  0001 C CNN "manf#"
 	1    4550 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5DA0DA67
-P 4550 3200
-AR Path="/5D9739A6/5DA0DA67" Ref="R?"  Part="1" 
-AR Path="/5D9739FA/5DA0DA67" Ref="R301"  Part="1" 
-F 0 "R301" V 4450 3200 50  0000 C CNN
-F 1 "10K" V 4500 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4480 3200 50  0001 C CNN
-F 3 "" H 4550 3200 50  0001 C CNN
-F 4 "RES 10K OHM SMD 0805" H 4550 3200 50  0001 C CNN "Descripcion"
-F 5 "311-10KARCT-ND" H 4550 3200 50  0001 C CNN "digikey#"
-F 6 "Yageo" H 4550 3200 50  0001 C CNN "manf"
-F 7 "RC0805JR-0710KL" H 4550 3200 50  0001 C CNN "manf#"
-	1    4550 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4700 3200 5550 3200
 Wire Wire Line
@@ -629,38 +612,6 @@ Wire Wire Line
 	4700 3850 5550 3850
 Wire Wire Line
 	5550 4100 4700 4100
-Wire Wire Line
-	4400 3200 4250 3200
-Wire Wire Line
-	4250 3200 4250 3350
-Wire Wire Line
-	4250 4100 4400 4100
-Wire Wire Line
-	4400 3850 4250 3850
-Connection ~ 4250 3850
-Wire Wire Line
-	4250 3850 4250 4100
-Wire Wire Line
-	4400 3350 4250 3350
-Connection ~ 4250 3350
-Wire Wire Line
-	4250 3350 4250 3850
-$Comp
-L power:VCC #PWR?
-U 1 1 5DA0DA86
-P 4250 3100
-AR Path="/5D9739A6/5DA0DA86" Ref="#PWR?"  Part="1" 
-AR Path="/5D9739FA/5DA0DA86" Ref="#PWR0301"  Part="1" 
-F 0 "#PWR0301" H 4250 2950 50  0001 C CNN
-F 1 "VCC" H 4267 3273 50  0000 C CNN
-F 2 "" H 4250 3100 50  0001 C CNN
-F 3 "" H 4250 3100 50  0001 C CNN
-	1    4250 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 3100 4250 3200
-Connection ~ 4250 3200
 Text HLabel 4650 2200 0    50   Input ~ 0
 PFD-B
 Wire Wire Line
@@ -685,35 +636,33 @@ Text Label 5050 3850 0    50   ~ 0
 SLEEP
 Text Label 5050 4100 0    50   ~ 0
 RST
-Text HLabel 2050 3150 0    50   Input ~ 0
-MS1-B
-Text HLabel 2050 3350 0    50   Input ~ 0
+Text HLabel 3250 3450 0    50   Input ~ 0
 MS2-B
-Text HLabel 2050 3550 0    50   Input ~ 0
+Text HLabel 3250 3650 0    50   Input ~ 0
 ENA-B
-Text HLabel 2050 3750 0    50   Input ~ 0
+Text HLabel 3250 3850 0    50   Input ~ 0
 SLEEP-B
-Text HLabel 2050 3950 0    50   Input ~ 0
+Text HLabel 3250 4050 0    50   Input ~ 0
 RST-B
 Wire Wire Line
-	2300 3150 2050 3150
+	3500 3250 3250 3250
 Wire Wire Line
-	2300 3350 2050 3350
+	3500 3450 3250 3450
 Wire Wire Line
-	2300 3550 2050 3550
+	3500 3650 3250 3650
 Wire Wire Line
-	2300 3750 2050 3750
+	3500 3850 3250 3850
 Wire Wire Line
-	2300 3950 2050 3950
-Text Label 2300 3150 0    50   ~ 0
+	3500 4050 3250 4050
+Text Label 3500 3250 0    50   ~ 0
 MS1
-Text Label 2300 3350 0    50   ~ 0
+Text Label 3500 3450 0    50   ~ 0
 MS2
-Text Label 2300 3550 0    50   ~ 0
+Text Label 3500 3650 0    50   ~ 0
 ENA
-Text Label 2300 3750 0    50   ~ 0
+Text Label 3500 3850 0    50   ~ 0
 SLEEP
-Text Label 2300 3950 0    50   ~ 0
+Text Label 3500 4050 0    50   ~ 0
 RST
 Text Label 8700 3300 0    50   ~ 0
 DB-O1A
@@ -737,4 +686,167 @@ Text Notes 7900 3800 0    50   ~ 0
 IMax = 850mA
 Text Notes 3350 6650 0    79   ~ 0
 TP301 = Ajuste de maxima corriente del motor\nPara Vref =5V -> Iout = 833mA\nPara Vref =2V -> Iout = 333mA\nPara Vref =1V -> Iout = 166mA
+$Comp
+L Device:CP C?
+U 1 1 5DB79028
+P 1950 1850
+AR Path="/5D973A64/5DB79028" Ref="C?"  Part="1" 
+AR Path="/5D9739FA/5DB79028" Ref="C303"  Part="1" 
+F 0 "C303" H 2068 1896 50  0000 L CNN
+F 1 "47uF x 35V" H 2000 1750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1988 1700 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/293/e-ufw-1511690.pdf" H 1950 1850 50  0001 C CNN
+F 4 "CAP Electrolitico 47UF  35V RADIAL" H 1950 1850 50  0001 C CNN "Descripcion"
+F 5 "493-11044-1-ND" H 1950 1850 50  0001 C CNN "digikey#"
+F 6 "Nichicon" H 1950 1850 50  0001 C CNN "manf"
+F 7 "UFW1V470MDD1TD" H 1950 1850 50  0001 C CNN "manf#"
+	1    1950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7902E
+P 1950 2100
+AR Path="/5D973A64/5DB7902E" Ref="#PWR?"  Part="1" 
+AR Path="/5D9739FA/5DB7902E" Ref="#PWR0317"  Part="1" 
+F 0 "#PWR0317" H 1950 1850 50  0001 C CNN
+F 1 "GND" H 1955 1927 50  0000 C CNN
+F 2 "" H 1950 2100 50  0001 C CNN
+F 3 "" H 1950 2100 50  0001 C CNN
+	1    1950 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 2550 0    50   ~ 0
+Colocar cerca\nde U301\n
+Wire Wire Line
+	1950 2000 1950 2100
+Wire Notes Line
+	2150 2000 2150 2350
+Wire Notes Line
+	1850 2350 1850 2600
+Wire Notes Line
+	1850 2600 2500 2600
+Wire Notes Line
+	1850 2350 2500 2350
+$Comp
+L Device:C C?
+U 1 1 5DB849A1
+P 2950 1850
+AR Path="/5D973A64/5DB849A1" Ref="C?"  Part="1" 
+AR Path="/5D9739FA/5DB849A1" Ref="C304"  Part="1" 
+F 0 "C304" H 3050 1850 50  0000 L CNN
+F 1 "1uF x 10V" H 2950 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2988 1700 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/212/KEM_C1005_Y5V_SMD-1101305.pdf" H 2950 1850 50  0001 C CNN
+F 4 "CAP CER 1UF 10V " H 2950 1850 50  0001 C CNN "Descripcion"
+F 5 "399-1172-1-ND" H 2950 1850 50  0001 C CNN "digikey#"
+F 6 "KEMET" H 2950 1850 50  0001 C CNN "manf"
+F 7 "C0805C105K8RACTU" H 2950 1850 50  0001 C CNN "manf#"
+	1    2950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB849A7
+P 2950 2100
+AR Path="/5D973A64/5DB849A7" Ref="#PWR?"  Part="1" 
+AR Path="/5D9739FA/5DB849A7" Ref="#PWR0319"  Part="1" 
+F 0 "#PWR0319" H 2950 1850 50  0001 C CNN
+F 1 "GND" H 2955 1927 50  0000 C CNN
+F 2 "" H 2950 2100 50  0001 C CNN
+F 3 "" H 2950 2100 50  0001 C CNN
+	1    2950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2100 2950 2000
+Wire Wire Line
+	2950 1700 2950 1650
+Text Notes 2800 1250 0    50   ~ 0
+Colocar cerca\nde U301\n
+Wire Notes Line
+	3100 1300 3100 1800
+Wire Notes Line
+	2750 1050 2750 1300
+Wire Notes Line
+	2750 1300 3400 1300
+Wire Notes Line
+	2750 1050 3400 1050
+Wire Notes Line
+	3400 1050 3400 1300
+Wire Notes Line
+	2500 2350 2500 2600
+$Comp
+L power:VDD #PWR0316
+U 1 1 5DBC92CF
+P 1950 1700
+F 0 "#PWR0316" H 1950 1550 50  0001 C CNN
+F 1 "VDD" H 1967 1873 50  0000 C CNN
+F 2 "" H 1950 1700 50  0001 C CNN
+F 3 "" H 1950 1700 50  0001 C CNN
+	1    1950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0318
+U 1 1 5DBC99F8
+P 2950 1650
+F 0 "#PWR0318" H 2950 1500 50  0001 C CNN
+F 1 "VCC" H 2967 1823 50  0000 C CNN
+F 2 "" H 2950 1650 50  0001 C CNN
+F 3 "" H 2950 1650 50  0001 C CNN
+	1    2950 1650
+	1    0    0    -1  
+$EndComp
+Text HLabel 3250 3250 0    50   Input ~ 0
+MS1-B
+$Comp
+L Device:R R?
+U 1 1 5DA0DA67
+P 4550 3200
+AR Path="/5D9739A6/5DA0DA67" Ref="R?"  Part="1" 
+AR Path="/5D9739FA/5DA0DA67" Ref="R301"  Part="1" 
+F 0 "R301" V 4450 3200 50  0000 C CNN
+F 1 "10K" V 4500 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4480 3200 50  0001 C CNN
+F 3 "" H 4550 3200 50  0001 C CNN
+F 4 "RES 10K OHM SMD 0805" H 4550 3200 50  0001 C CNN "Descripcion"
+F 5 "311-10KARCT-ND" H 4550 3200 50  0001 C CNN "digikey#"
+F 6 "Yageo" H 4550 3200 50  0001 C CNN "manf"
+F 7 "RC0805JR-0710KL" H 4550 3200 50  0001 C CNN "manf#"
+	1    4550 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5DA0DA86
+P 4250 3100
+AR Path="/5D9739A6/5DA0DA86" Ref="#PWR?"  Part="1" 
+AR Path="/5D9739FA/5DA0DA86" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 4250 2950 50  0001 C CNN
+F 1 "VCC" H 4267 3273 50  0000 C CNN
+F 2 "" H 4250 3100 50  0001 C CNN
+F 3 "" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 3350
+Wire Wire Line
+	4400 3350 4250 3350
+Wire Wire Line
+	4250 3350 4250 3850
+Wire Wire Line
+	4250 3850 4250 4100
+Connection ~ 4250 3850
+Wire Wire Line
+	4400 3850 4250 3850
+Wire Wire Line
+	4250 4100 4400 4100
+Wire Wire Line
+	4250 3100 4250 3200
+Wire Wire Line
+	4250 3200 4250 3350
+Connection ~ 4250 3200
+Wire Wire Line
+	4400 3200 4250 3200
 $EndSCHEMATC

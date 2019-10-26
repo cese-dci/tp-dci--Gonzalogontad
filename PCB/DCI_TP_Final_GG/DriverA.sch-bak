@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 4
 Title "Replica Dual EasyDriver v4.5"
 Date "2019-10-02"
-Rev "Matias Brignone"
+Rev "M Brignone"
 Comp "Gonzalo Gontad - CESE-FIUBA"
 Comment1 ""
 Comment2 ""
@@ -20,7 +20,7 @@ U 1 1 5D973B9E
 P 3250 1150
 F 0 "U201" H 5800 -1100 50  0000 C CNN
 F 1 "A3967" H 5800 -1250 50  0000 C CNN
-F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" V 6100 -1300 50  0001 C CNN
+F 2 "DCI_TP_Final_GG:SOIC-24W_7.5x15.4mm_P1.27mm" V 6100 -1300 50  0001 C CNN
 F 3 "https://github.com/cese-dci/tp-dci--Gonzalogontad/blob/master/info/A3967-Datasheet.pdf" H 5800 -1150 50  0001 C CNN
 F 4 "Stepper Driver A3967" H 3250 1150 50  0001 C CNN "Descripcion"
 F 5 "620-1140-1-ND" H 3250 1150 50  0001 C CNN "digikey#"
@@ -619,35 +619,35 @@ Text Label 4500 4000 0    50   ~ 0
 SLEEP
 Text Label 4500 4250 0    50   ~ 0
 RST
-Text HLabel 1500 3300 0    50   Input ~ 0
+Text HLabel 2650 3400 0    50   Input ~ 0
 MS1-A
-Text HLabel 1500 3500 0    50   Input ~ 0
+Text HLabel 2650 3600 0    50   Input ~ 0
 MS2-A
-Text HLabel 1500 3700 0    50   Input ~ 0
+Text HLabel 2650 3800 0    50   Input ~ 0
 ENA-A
-Text HLabel 1500 3900 0    50   Input ~ 0
+Text HLabel 2650 4000 0    50   Input ~ 0
 SLEEP-A
-Text HLabel 1500 4100 0    50   Input ~ 0
+Text HLabel 2650 4200 0    50   Input ~ 0
 RST-A
 Wire Wire Line
-	1750 3300 1500 3300
+	2900 3400 2650 3400
 Wire Wire Line
-	1750 3500 1500 3500
+	2900 3600 2650 3600
 Wire Wire Line
-	1750 3700 1500 3700
+	2900 3800 2650 3800
 Wire Wire Line
-	1750 3900 1500 3900
+	2900 4000 2650 4000
 Wire Wire Line
-	1750 4100 1500 4100
-Text Label 1750 3300 0    50   ~ 0
+	2900 4200 2650 4200
+Text Label 2900 3400 0    50   ~ 0
 MS1
-Text Label 1750 3500 0    50   ~ 0
+Text Label 2900 3600 0    50   ~ 0
 MS2
-Text Label 1750 3700 0    50   ~ 0
+Text Label 2900 3800 0    50   ~ 0
 ENA
-Text Label 1750 3900 0    50   ~ 0
+Text Label 2900 4000 0    50   ~ 0
 SLEEP
-Text Label 1750 4100 0    50   ~ 0
+Text Label 2900 4200 0    50   ~ 0
 RST
 Text Label 8150 3450 0    50   ~ 0
 DA-O1A
@@ -671,4 +671,116 @@ Text Notes 7350 3950 0    50   ~ 0
 IMax = 850mA
 Text Notes 3000 6800 0    79   ~ 0
 TP201 = Ajuste de maxima corriente del motor\nPara Vref =5V -> Iout = 833mA\nPara Vref =2V -> Iout = 333mA\nPara Vref =1V -> Iout = 166mA
+$Comp
+L Device:CP C?
+U 1 1 5DB649DD
+P 1600 1800
+AR Path="/5D973A64/5DB649DD" Ref="C?"  Part="1" 
+AR Path="/5D9739A6/5DB649DD" Ref="C203"  Part="1" 
+F 0 "C203" H 1718 1846 50  0000 L CNN
+F 1 "47uF x 35V" H 1650 1700 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1638 1650 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/293/e-ufw-1511690.pdf" H 1600 1800 50  0001 C CNN
+F 4 "CAP Electrolitico 47UF  35V RADIAL" H 1600 1800 50  0001 C CNN "Descripcion"
+F 5 "493-11044-1-ND" H 1600 1800 50  0001 C CNN "digikey#"
+F 6 "Nichicon" H 1600 1800 50  0001 C CNN "manf"
+F 7 "UFW1V470MDD1TD" H 1600 1800 50  0001 C CNN "manf#"
+	1    1600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB649E3
+P 1600 2050
+AR Path="/5D973A64/5DB649E3" Ref="#PWR?"  Part="1" 
+AR Path="/5D9739A6/5DB649E3" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 1600 1800 50  0001 C CNN
+F 1 "GND" H 1605 1877 50  0000 C CNN
+F 2 "" H 1600 2050 50  0001 C CNN
+F 3 "" H 1600 2050 50  0001 C CNN
+	1    1600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1950 1600 2050
+Text Notes 1500 2500 0    50   ~ 0
+Colocar cerca\nde U201
+Wire Notes Line
+	1800 1950 1800 2300
+Wire Notes Line
+	1450 2300 1450 2550
+Wire Notes Line
+	1450 2550 2100 2550
+Wire Notes Line
+	2100 2550 2100 2300
+Wire Notes Line
+	1450 2300 2100 2300
+$Comp
+L Device:C C?
+U 1 1 5DB70497
+P 2600 1850
+AR Path="/5D973A64/5DB70497" Ref="C?"  Part="1" 
+AR Path="/5D9739A6/5DB70497" Ref="C204"  Part="1" 
+F 0 "C204" H 2700 1850 50  0000 L CNN
+F 1 "1uF x 10V" H 2600 1750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 1700 50  0001 C CNN
+F 3 "https://ar.mouser.com/datasheet/2/212/KEM_C1005_Y5V_SMD-1101305.pdf" H 2600 1850 50  0001 C CNN
+F 4 "CAP CER 1UF 10V " H 2600 1850 50  0001 C CNN "Descripcion"
+F 5 "399-1172-1-ND" H 2600 1850 50  0001 C CNN "digikey#"
+F 6 "KEMET" H 2600 1850 50  0001 C CNN "manf"
+F 7 "C0805C105K8RACTU" H 2600 1850 50  0001 C CNN "manf#"
+	1    2600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7049D
+P 2600 2100
+AR Path="/5D973A64/5DB7049D" Ref="#PWR?"  Part="1" 
+AR Path="/5D9739A6/5DB7049D" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 2600 1850 50  0001 C CNN
+F 1 "GND" H 2605 1927 50  0000 C CNN
+F 2 "" H 2600 2100 50  0001 C CNN
+F 3 "" H 2600 2100 50  0001 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2100 2600 2000
+Wire Wire Line
+	2600 1700 2600 1650
+Text Notes 2300 1250 0    50   ~ 0
+Colocar cerca\nde U201
+Wire Notes Line
+	2250 1300 2900 1300
+Wire Notes Line
+	2900 1300 2900 1050
+Wire Notes Line
+	2250 1050 2900 1050
+Wire Notes Line
+	2750 1300 2750 1800
+Wire Notes Line
+	2250 1050 2250 1300
+$Comp
+L power:VDD #PWR0216
+U 1 1 5DBCA68C
+P 1600 1650
+F 0 "#PWR0216" H 1600 1500 50  0001 C CNN
+F 1 "VDD" H 1617 1823 50  0000 C CNN
+F 2 "" H 1600 1650 50  0001 C CNN
+F 3 "" H 1600 1650 50  0001 C CNN
+	1    1600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0218
+U 1 1 5DBCAF58
+P 2600 1650
+F 0 "#PWR0218" H 2600 1500 50  0001 C CNN
+F 1 "VCC" H 2617 1823 50  0000 C CNN
+F 2 "" H 2600 1650 50  0001 C CNN
+F 3 "" H 2600 1650 50  0001 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

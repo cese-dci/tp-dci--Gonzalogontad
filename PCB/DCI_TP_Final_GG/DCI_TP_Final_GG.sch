@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Replica Dual EasyDriver v4.5"
-Date "2019-10-02"
-Rev "Matias Brignone"
+Date "2019-10-26"
+Rev "M Brignone"
 Comp "Gonzalo Gontad - CESE-FIUBA"
-Comment1 ""
+Comment1 "Revisores: M. Ribelotta y M. Brignone"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -228,4 +228,15 @@ Wire Wire Line
 	5550 3000 5650 3000
 Wire Wire Line
 	5550 3300 5550 3000
+$Comp
+L Mechanical:Fiducial FID103
+U 1 1 5DAEF19A
+P 2950 6550
+F 0 "FID103" H 3035 6596 50  0000 L CNN
+F 1 "Fiducial" H 3035 6505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2950 6550 50  0001 C CNN
+F 3 "~" H 2950 6550 50  0001 C CNN
+	1    2950 6550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

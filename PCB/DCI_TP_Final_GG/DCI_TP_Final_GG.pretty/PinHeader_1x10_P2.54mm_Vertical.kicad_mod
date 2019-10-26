@@ -4,7 +4,7 @@
   (fp_text reference J401 (at 0 -2.33) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "IN - Driver A " (at 0 25.19) (layer F.Fab)
+  (fp_text value "IN - Driver A " (at -3.5 15.36 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
